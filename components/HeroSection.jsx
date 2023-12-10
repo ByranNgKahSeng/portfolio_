@@ -20,7 +20,7 @@ const HeroSection = () => {
               <span className="text-white text-8xl ">
                 Hello, I'm{" "} 
                 <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                Yee Chian
+                Byran Ng
                 </span>
               </span>
               <br></br>
@@ -57,9 +57,9 @@ const HeroSection = () => {
               </Link>
              
               <Link
-                href="https://drive.google.com/file/d/1ajOJwhrua1lElHtbVjzOv12ySXn8xPBa/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jGizWPKLLVZOAm_KYdCLP_tPNBXiBBxn/view?usp=drive_link"
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
-                <span className="text-xl text-white">View my Resume</span>
+                <span className="text-xl text-white">View my E-CV</span>
               </Link>
           </motion.div>
         <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-24">
@@ -68,13 +68,13 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-          <div className="w-[400px] h-[400px] relative z-0">
+          <div className="w-[500px] h-[600px] relative z-0">
             <img
-              src="/Hero-Section.png"
+              src="/Hero-Section.jpg"
               alt="hero section"
               className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={450}
-              height={450}
+              width={550}
+              height={650}
             />
           </div>
           </motion.div>
